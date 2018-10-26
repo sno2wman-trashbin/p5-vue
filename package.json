@@ -1,0 +1,14 @@
+{
+    "name": "p5-vue",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "SnO2WMaN <sno2wman.official@gmail.com> (https://sno2wman.graphics/)",
+    "license": "MIT",
+    "devDependencies": {
+        "eslint": "^5.7.0",
+        "eslint-config-prettier": "^3.1.0",
+        "eslint-plugin-prettier": "^3.0.0",
+        "eslint-plugin-vue": "^4.7.1",
+        "prettier": "^1.14.3"
+    }
+}
