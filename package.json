@@ -4,11 +4,22 @@
     "main": "index.js",
     "author": "SnO2WMaN <sno2wman.official@gmail.com> (https://sno2wman.graphics/)",
     "license": "MIT",
+    "scripts": {
+        "dev": "parcel dev/index.html --no-hmr"
+    },
     "devDependencies": {
+        "@vue/component-compiler-utils": "^2.3.0",
         "eslint": "^5.7.0",
-        "eslint-config-prettier": "^3.1.0",
-        "eslint-plugin-prettier": "^3.0.0",
-        "eslint-plugin-vue": "^4.7.1",
-        "prettier": "^1.14.3"
+        "eslint-config-precure": "^3.2.0",
+        "eslint-plugin-vue": "^5.0.0-beta.3",
+        "prettier": "^1.14.3",
+        "sass": "^1.14.3",
+        "vue-template-compiler": "^2.5.17",
+        "parcel-bundler": "^1.10.3",
+        "vue-hot-reload-api": "^2.3.1"
+    },
+    "dependencies": {
+        "p5": "^0.7.2",
+        "vue": "^2.5.17"
     }
 }

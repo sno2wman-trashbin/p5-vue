@@ -1,12 +1,11 @@
 module.exports = {
     root: true,
-    plugins: ["prettier"],
-    extends: [
-        "eslint:recommended",
-        "plugin:prettier/recommended",
-        "plugin:vue/recommended"
-    ],
+    extends: ['precure', 'plugin:vue/recommended'],
     rules: {
-        "prettier/prettier": ["error"]
-    }
-};
+        'max-depth': ['off'],
+        'max-lines-per-function': ['off'],
+        'max-statements': ['off'],
+        'no-continue': ['off'],
+        complexity: ['off'],
+    },
+}
