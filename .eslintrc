@@ -1,0 +1,20 @@
+{
+	"root": true,
+	"env": {
+		"es6": true,
+		"browser": true
+	},
+	"parser": "vue-eslint-parser",
+	"parserOptions": {
+		"ecmaVersion": 7,
+		"sourceType": "module"
+	},
+	"extends": [
+		"plugin:prettier/recommended",
+		"eslint:recommended",
+		"plugin:vue/recommended"
+	],
+	"rules": {
+		"prettier/prettier": ["error"]
+	}
+}
