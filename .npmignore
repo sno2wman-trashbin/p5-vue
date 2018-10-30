@@ -1,5 +1,7 @@
 dev/
 test/
+.cache
+dist
 .eslintrc
 .prettierrc
 .babelrc
