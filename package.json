@@ -18,14 +18,16 @@
 	"devDependencies": {
 		"@vue/component-compiler-utils": "^2.3.0",
 		"eslint": "^5.7.0",
+		"eslint-config-precure": "^3.2.0",
 		"eslint-plugin-prettier": "^3.0.0",
 		"eslint-plugin-vue": "^5.0.0-beta.3",
+		"husky": "^1.1.2",
+		"parcel-bundler": "^1.10.3",
 		"prettier": "^1.14.3",
 		"sass": "^1.14.3",
-		"vue-template-compiler": "^2.5.17",
-		"parcel-bundler": "^1.10.3",
 		"vue-eslint-parser": "^3.2.2",
-		"vue-hot-reload-api": "^2.3.1"
+		"vue-hot-reload-api": "^2.3.1",
+		"vue-template-compiler": "^2.5.17"
 	},
 	"dependencies": {
 		"p5": "^0.7.2",

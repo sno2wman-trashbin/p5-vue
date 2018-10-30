@@ -1,0 +1,6 @@
+dev/
+test/
+.eslintrc
+.prettierrc
+.babelrc
+.editorconfig

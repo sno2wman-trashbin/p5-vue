@@ -4,13 +4,13 @@ const cellSize = width / 200
 const cellsW = width / cellSize
 const cellsH = height / cellSize
 let cells
-const cellsReverb = new Array(5).fill(null)
+const cellsReverb = new Array(3).fill(null)
 
 export default {
 	width,
 	height,
 	setup(p) {
-		//p.frameRate(20)
+		p.frameRate(30)
 		p.colorMode(p.HSB, 1, 1, 1, 1)
 		p.noStroke()
 		cells = []
